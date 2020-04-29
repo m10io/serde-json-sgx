@@ -17,9 +17,9 @@ travis-ci = { repository = "serde-rs/json" }
 appveyor = { repository = "serde-rs/json" }
 
 [dependencies]
-serde = { git = "https://github.com/mesalock-linux/serde-sgx.git" }
-indexmap = { git = "https://github.com/mesalock-linux/indexmap-sgx.git", optional = true }
-itoa = { git = "https://github.com/mesalock-linux/itoa-sgx.git" }
+serde = { git = "https://github.com/mesalock-linux/serde-sgx.git", tag = "sgx_1.1.1" }
+indexmap = { git = "https://github.com/mesalock-linux/indexmap-sgx.git", tag = "sgx_1.1.1", optional = true }
+itoa = { git = "https://github.com/mesalock-linux/itoa-sgx.git", tag = "sgx_1.1.1" }
 ryu = "1.0"
 sgx_tstd = { rev = "v1.1.1", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
